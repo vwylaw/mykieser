@@ -85,7 +85,7 @@ export class KieserClient {
             } catch (e) {
                 // Refresh failed, redirect to login or throw
                 this.clearToken();
-                window.location.href = '/login'; // Simple redirect
+                window.location.hash = '#/login'; // Redirect to login on hash router
                 throw e;
             }
         }
