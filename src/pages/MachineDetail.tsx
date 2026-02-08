@@ -142,7 +142,7 @@ export const MachineDetail = () => {
                                             </h2>
                                         </div>
                                         {mImage && (
-                                            <div className="w-full md:w-1/6 max-w-[80px] bg-white rounded-lg p-1">
+                                            <div className="w-full md:w-1/4 max-w-150 bg-white rounded-lg p-1">
                                                 <img
                                                     src={mImage}
                                                     alt={`${m.kiesermachine_display} ${label}`}
@@ -171,7 +171,7 @@ export const MachineDetail = () => {
                         </h2>
                     </div>
                     {mImage && (
-                        <div className="w-full md:w-1/6 max-w-[80px] bg-white rounded-lg p-1">
+                        <div className="w-full md:w-1/4 max-w-150 bg-white rounded-lg p-1">
                             <img
                                 src={mImage}
                                 alt={m.kiesermachine_display}
@@ -252,7 +252,7 @@ export const MachineDetail = () => {
                                                 </h1>
                                             </div>
                                             {machineImage && (
-                                                <div className="w-full md:w-1/6 max-w-[80px] bg-white rounded-lg p-1">
+                                                <div className="w-full md:w-1/4 max-w-150 bg-white rounded-lg p-1">
                                                     <img
                                                         src={machineImage}
                                                         alt={`${machine.kiesermachine_display} ${label}`}
@@ -277,7 +277,7 @@ export const MachineDetail = () => {
                                     </h1>
                                 </div>
                                 {machineImage && (
-                                    <div className="w-full md:w-1/6 max-w-[80px] bg-white rounded-lg p-1">
+                                    <div className="w-full md:w-1/4 max-w-150 bg-white rounded-lg p-1">
                                         <img
                                             src={machineImage}
                                             alt={machine.kiesermachine_display}

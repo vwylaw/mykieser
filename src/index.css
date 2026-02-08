@@ -155,16 +155,32 @@ img {
   width: 100%;
 }
 
+.w-12 {
+  width: 3rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
 .h-full {
   height: 100%;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-24 {
-  height: 100px;
+  height: 160px;
 }
 
 .h-32 {
   height: 128px;
+}
+
+.max-w-150 {
+  max-width: 150px;
 }
 
 .min-w-0 {
