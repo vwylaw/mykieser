@@ -76,7 +76,10 @@ export function getMachineImage(machineName: string): string | null {
     if (code) {
         // Convert code to filename (replace . with _)
         const filename = code.replace('.', '_');
-        return `/machines/${filename}.jpg`;
+        const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+            ? import.meta.env.BASE_URL
+            : `${import.meta.env.BASE_URL}/`;
+        return `${baseUrl}machines/${filename}.jpg`;
     }
 
     return null;
